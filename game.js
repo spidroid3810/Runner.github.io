@@ -8,7 +8,7 @@ kaboom();
 setBackground(141, 183, 255);
 
 // load assets
-loadSprite("bean", "/sprites/icon1.png");
+loadSprite("bean", "sprites/icon1.png");
 
 scene("game", () => {
 
