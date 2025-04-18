@@ -1,5 +1,3 @@
-import kaboom from "kaboom";
-
 const FLOOR_HEIGHT = 48;
 const JUMP_FORCE = 800;
 const SPEED = 480;
@@ -10,7 +8,7 @@ kaboom();
 setBackground(141, 183, 255);
 
 // load assets
-loadSprite("bean", "sprites/icon1.png");
+loadSprite("bean", "sprites/bean.png");
 
 scene("game", () => {
 
