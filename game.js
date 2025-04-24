@@ -11,14 +11,14 @@ kaboom({
 setBackground(141, 183, 255);
 
 // Load sprites
-loadSprite("sprite", "/sprites/sprite.png", {
+loadSprite("sprite", "sprites/sprite.png", {
     sliceX: 5,
     anims: {
         run: { from: 0, to: 3, loop: true },
         jump: { from: 4, to: 4, loop: false },
     },
 });
-loadSprite("floor", "/sprites/floor.png");
+loadSprite("floor", "sprites/floor.png");
 
 scene("game", () => {
     setGravity(3000);
