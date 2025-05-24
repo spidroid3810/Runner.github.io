@@ -27,8 +27,7 @@ scene("game", () => {
         sprite("sprite"),
         pos(80, 40),
         area(),
-        body(),
-        scale(0.3),
+        body()
     ]);
 
     player.play("run");
